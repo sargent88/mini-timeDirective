@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="timeApp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Function Binding</title>
+</head>
+
+<body ng-controller="mainCtrl">
+
+    <h1>Hello {{name}}</h1>
+
+    <show-time></show-time>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.js'></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/mainCtrl.js"></script>
+    <script src="./js/timeDirective.js"></script>
+</body>
+
+</html>
